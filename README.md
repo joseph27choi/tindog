@@ -1,1 +1,1 @@
-TinDog Starting Files
+Just a basic site for CSS practice
