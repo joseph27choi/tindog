@@ -1,0 +1,217 @@
+/* For General Tags, Use General Styling (Font/Colour Theme) */
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Section Color */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+    color: black;
+}
+
+
+/*----------------- Title ----------------*/
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.red-back {
+    height: 70%;
+}
+
+/* Navigation Bar */
+
+/* When Making Texts Bold, Target Anchor or Text
+Don't Target Div */
+
+/* The Bootstrap Words After Initial Class Call Don't Matter in Styles.css */
+/* Use This With .Navar Class Because The Nav Doesn't Have Content Directly Inside It */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* Heading */
+
+.heading-sentence {
+    padding: auto 100rem;
+    text-align: left;
+}
+
+.catch {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Dog Image */
+.dog-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* --------------Title End ------------- */
+
+/* Feature Icon */
+
+/* to keep columns centered with spacing between, use padding */
+
+.feature-row {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    /* this is how to decide width and center in bootstrap */
+}
+
+.feature-col {
+    margin: 7rem auto;
+}
+
+.feature-icon {
+    color: #ef8172;
+    font-size: 3rem;
+    padding: 0 0 1.25rem 0;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-heading {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+/* testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding: 0 0 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* for two parameters, pricing goes top and :horizontal  */
+/* for four parameters, NESW */
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Call To Action */
+
+.call-to-action h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+.cta-button {
+    margin: 3rem 0.5rem;
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+}
+
+.footer-content i {
+    margin: 20px 10px;
+}
+
+/* Media Query For Mobile and Tablet */
+@media (max-width: 1028px) {
+    .red-back {
+        text-align: center;
+    }
+
+    .dog-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
